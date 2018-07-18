@@ -7,16 +7,7 @@ class App extends Component {
     super();
  
     this.state = {
-      players: [
-        {
-          name: 'Adam',
-          score: 5,
-        },
-        { 
-          name: 'Daniel',
-          score: 0,
-        }
-      ]
+      players: []
     }    
   }
 
